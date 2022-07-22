@@ -1,0 +1,41 @@
+.row {
+    padding: 50px;
+}
+
+div {
+    background-color: #000;
+    color: #fff;
+    text-align: left;
+}
+
+/*Titulo de Acerca de mi*/
+#acercatitulo {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 80px;
+}
+
+/*Estilo de la foto de perfil*/
+@media (min-width: 576px) {
+    #fotoperfil {
+        position: absolute;
+        box-shadow: 3px 3px 3px orange;
+        border-radius: 100%;
+        width: 120px;
+        left: 5%;
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 575px) {
+    #fotoperfil {
+        position: absolute;
+        box-shadow: 3px 3px 3px orange;
+        border-radius: 100%;
+        width: 30%;
+        left: 33%;
+        top: 630px;
+        margin-right: 80%;
+        margin-top: 50%;
+    }
+}

@@ -1,0 +1,14 @@
+.row {
+    padding: 5%;
+    color: rgb(255, 84, 0);
+}
+
+div {
+    background-color: black;
+    color: white;
+}
+
+h1,
+h3 {
+    display: inline;
+}

@@ -5,7 +5,8 @@
 div {
     background-color: #000;
     color: #fff;
-    text-align: left;
+    text-align: right;
+    padding-right: inherit;
 }
 
 /*Titulo de Acerca de mi*/
@@ -19,10 +20,10 @@ div {
 @media (min-width: 576px) {
     #fotoperfil {
         position: absolute;
-        box-shadow: 3px 3px 3px orange;
+        box-shadow: 3px 3px 3px greenyellow;
         border-radius: 100%;
         width: 120px;
-        left: 5%;
+        right: 5%;
         margin-top: 80px;
     }
 }
@@ -30,12 +31,16 @@ div {
 @media (max-width: 575px) {
     #fotoperfil {
         position: absolute;
-        box-shadow: 3px 3px 3px orange;
+        box-shadow: 3px 3px 3px greenyellow;
         border-radius: 100%;
         width: 30%;
-        left: 33%;
-        top: 630px;
-        margin-right: 80%;
-        margin-top: 50%;
+        right: 5%;
+        top: 535px;
+        margin-right: 10%;
+        margin-bottom: 200;
+    }
+
+    #estiloacerca {
+        text-align: center;
     }
 }

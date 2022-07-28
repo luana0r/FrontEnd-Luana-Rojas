@@ -1,0 +1,11 @@
+.row {
+    background-color: black;
+}
+
+
+h1 {
+    color: rgb(255, 84, 0);
+    text-align: center;
+    margin-top: 10%;
+    padding-bottom: 5%;
+}

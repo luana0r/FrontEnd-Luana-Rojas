@@ -1,13 +1,15 @@
 .row {
     padding: 50px;
+    background-color: #000;
 }
 
 div {
-    background-color: #000;
-    color: #fff;
+
+    color: #fefefe;
     text-align: right;
     padding-right: inherit;
 }
+
 
 /*Titulo de Acerca de mi*/
 #acercatitulo {
@@ -20,18 +22,18 @@ div {
 @media (min-width: 576px) {
     #fotoperfil {
         position: absolute;
-        box-shadow: 3px 3px 3px greenyellow;
         border-radius: 100%;
-        width: 120px;
-        right: 5%;
-        margin-top: 80px;
+        width: 300px;
+        right: 4%;
+        left: 73%;
+        top: 730px;
     }
 }
 
 @media (max-width: 575px) {
     #fotoperfil {
         position: absolute;
-        box-shadow: 3px 3px 3px greenyellow;
+        box-shadow: 3px 3px 3px yellow;
         border-radius: 100%;
         width: 30%;
         right: 5%;

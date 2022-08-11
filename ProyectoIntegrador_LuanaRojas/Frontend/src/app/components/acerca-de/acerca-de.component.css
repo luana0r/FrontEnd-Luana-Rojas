@@ -4,18 +4,10 @@
 }
 
 div {
-
-    color: #fefefe;
+    color: bisque;
     text-align: right;
-    padding-right: inherit;
-}
-
-
-/*Titulo de Acerca de mi*/
-#acercatitulo {
-    font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-top: 80px;
+    text-decoration: wavy;
+    background-color: #000;
 }
 
 /*Estilo de la foto de perfil*/
@@ -28,7 +20,14 @@ div {
         left: 73%;
         top: 730px;
     }
+
+    #texto,
+    #acercatitulo {
+        margin-right: 5%;
+    }
 }
+
+
 
 @media (max-width: 575px) {
     #fotoperfil {
@@ -44,5 +43,6 @@ div {
 
     #estiloacerca {
         text-align: center;
+        color: bisque;
     }
 }

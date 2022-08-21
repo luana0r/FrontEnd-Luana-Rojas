@@ -12,9 +12,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface iRolRepository extends JpaRepository<Rol, Integer>{
-  Optional<Rol> findByRolNombre(RolNombre rolNombre);  
-
-    public Optional<Rol> findByNombre(RolNombre rolNombre);
+  Optional<Rol> findByRolNombre(RolNombre rolNombre);
 }
 
 

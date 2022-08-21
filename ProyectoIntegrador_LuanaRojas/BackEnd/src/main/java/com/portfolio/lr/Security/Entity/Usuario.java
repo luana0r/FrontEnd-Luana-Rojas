@@ -4,6 +4,7 @@
  */
 package com.portfolio.lr.Security.Entity;
 
+import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
 import javax.persistence.Column;
@@ -17,6 +18,8 @@ import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.validation.constraints.NotNull;
 
+
+
 @Entity
 public class Usuario {
     @Id
@@ -26,7 +29,7 @@ public class Usuario {
     private String nombre;
     @NotNull
     @Column(unique = true)
-    private String nombreUsurario;
+    private String nombreUsuario;
     @NotNull
     private String email;
     @NotNull
@@ -40,9 +43,9 @@ public class Usuario {
     public Usuario() {
     }
 
-    public Usuario(String nombre, String nombreUsurario, String email, String password) {
+    public Usuario(String nombre, String nombreUsuario, String email, String password) {
         this.nombre = nombre;
-        this.nombreUsurario = nombreUsurario;
+        this.nombreUsuario = nombreUsuario;
         this.email = email;
         this.password = password;
     }
@@ -65,12 +68,12 @@ public class Usuario {
         this.nombre = nombre;
     }
 
-    public String getNombreUsurario() {
-        return nombreUsurario;
+    public String getNombreUsuario() {
+        return nombreUsuario;
     }
 
-    public void setNombreUsurario(String nombreUsurario) {
-        this.nombreUsurario = nombreUsurario;
+    public void setNombreUsuario(String nombreUsuario) {
+        this.nombreUsuario = nombreUsuario;
     }
 
     public String getEmail() {

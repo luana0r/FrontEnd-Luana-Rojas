@@ -4,7 +4,6 @@
  */
 package com.portfolio.lr.Security.Entity;
 
-import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
 import javax.persistence.Column;
@@ -38,7 +37,7 @@ public class Usuario {
     @JoinTable(name = "usuario_rol", joinColumns = @JoinColumn(name ="usuario_id"), inverseJoinColumns = @JoinColumn(name = "rol_id"))
     private Set<Rol> roles = new HashSet<>();
     
-    //  constructores
+    //Constructores
 
     public Usuario() {
     }
@@ -50,7 +49,7 @@ public class Usuario {
         this.password = password;
     }
     
-    //Getter & Setter
+    //Getter Y Setter
 
     public int getId() {
         return id;
